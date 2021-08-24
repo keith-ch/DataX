@@ -1,20 +1,10 @@
-![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/DataX-logo.jpg)
-
-
 # DataX
 
 DataX 是阿里云 [DataWorks数据集成](https://www.aliyun.com/product/bigdata/ide) 的开源版本，在阿里巴巴集团内被广泛使用的离线数据同步工具/平台。DataX 实现了包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、Hologres、DRDS 等各种异构数据源之间高效的数据同步功能。
 
-# DataX 商业版本
-阿里云DataWorks数据集成是DataX团队在阿里云上的商业化产品，致力于提供复杂网络环境下、丰富的异构数据源之间高速稳定的数据移动能力，以及繁杂业务背景下的数据同步解决方案。目前已经支持云上近3000家客户，单日同步数据超过3万亿条。DataWorks数据集成目前支持离线50+种数据源，可以进行整库迁移、批量上云、增量同步、分库分表等各类同步解决方案。2020年更新实时同步能力，2020年更新实时同步能力，支持10+种数据源的读写任意组合。提供MySQL，Oracle等多种数据源到阿里云MaxCompute，Hologres等大数据引擎的一键全增量同步解决方案。
-
-商业版本参见：  https://www.aliyun.com/product/bigdata/ide
-
-
 # Features
 
 DataX本身作为数据同步框架，将不同数据源的同步抽象为从源头数据源读取数据的Reader插件，以及向目标端写入数据的Writer插件，理论上DataX框架可以支持任意数据源类型的数据同步工作。同时DataX插件体系作为一套生态系统, 每接入一套新数据源该新加入的数据源即可实现和现有的数据源互通。
-
 
 
 # DataX详细介绍
@@ -27,7 +17,7 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
 
 ##### Download [DataX下载地址](http://datax-opensource.oss-cn-hangzhou.aliyuncs.com/datax.tar.gz)
 
-##### 请点击：[Quick Start](https://github.com/alibaba/DataX/blob/master/userGuid.md)
+##### 请点击：[如何使用](https://github.com/keith-ch/DataX/blob/master/userGuid.md)
 
 
 
@@ -101,28 +91,3 @@ This software is free to use under the Apache License [Apache license](https://g
 
 # 
 请及时提出issue给我们。请前往：[DataxIssue](https://github.com/alibaba/DataX/issues)
-
-# 开源版DataX企业用户
-
-![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/datax-enterprise-users.jpg)
-
-钉钉用户群：
-
-- DataX开源用户交流群
-    - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg" width="20%" height="20%">
-
-- DataX开源用户交流群2
-    - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A42.jpg" width="20%" height="20%">
-
-- DataX开源用户交流群3
-    - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A43.jpg" width="20%" height="20%">
-
-- DataX开源用户交流群4
-    - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A44.jpg" width="20%" height="20%">
-
-- DataX开源用户交流群5
-    - <img src="https://github.com/alibaba/DataX/blob/master/images/DataX%E5%BC%80%E6%BA%90%E7%94%A8%E6%88%B7%E4%BA%A4%E6%B5%81%E7%BE%A45.jpg" width="20%" height="20%">
-
-- DataX开源用户交流群6 
-    - <img src="https://user-images.githubusercontent.com/1905000/124073771-139cbd00-da75-11eb-9a3f-598cba145a76.png" width="20%" height="20%">
-
