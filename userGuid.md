@@ -34,7 +34,7 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
     ``` shell
     $ git clone git@github.com:alibaba/DataX.git
     或者
-    $ git clone https"//github.com/alibaba/DataX.git
+    $ git clone https://github.com/alibaba/DataX.git
     ```
     
     (2)、通过maven打包：
