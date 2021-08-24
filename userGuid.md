@@ -33,13 +33,17 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
     
     ``` shell
     $ git clone git@github.com:alibaba/DataX.git
+    $ git clone https://github.com/alibaba/DataX.git
     ```
     
     (2)、通过maven打包：
     
     ``` shell
     $ cd  {DataX_source_code_home}
+    cmd命令
     $ mvn -U clean package assembly:assembly -Dmaven.test.skip=true
+    power shell 命令
+    $ mvn -U clean package assembly:assembly '-Dmaven.test.skip=true'
     ```
     
     打包成功，日志显示如下：
