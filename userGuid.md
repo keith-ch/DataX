@@ -30,7 +30,7 @@ DataX本身作为数据同步框架，将不同数据源的同步抽象为从源
   * 方法二、下载DataX源码，自己编译：
     
     (1)、下载DataX源码：
-    
+    注意不要手工点击下载zip包，会编译失败
     ``` shell
     $ git clone git@github.com:alibaba/DataX.git
     或者
